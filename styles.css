@@ -1,14 +1,147 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 100%;
-    }
-    
-    .container {
-    max-width: 1900px;
-    width: 100%;
-    margin: 0 auto;
-    }
-    
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Header starts here */
+
+.container {
+  max-width: 1900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: blue;
+  height: 308px;
+  position: relative;
+}
+
+header h1 {
+  font-size: 32px;
+  color: white;
+  padding-top: 70px;
+  padding-left: 240px;
+}
+
+.white-dot {
+  position: absolute;
+  display: inline-block;
+  left: 1620px;
+  bottom: 215px;
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.first-gray-dot {
+  position: absolute;
+  display: inline-block;
+  left: 1650px;
+  bottom: 215px;
+  height: 10px;
+  width: 10px;
+  background-color: #fff;
+  opacity: 30%;
+  border-radius: 50%;
+}
+
+.second-gray-dot {
+  position: absolute;
+  display: inline-block;
+  left: 1680px;
+  bottom: 215px;
+  height: 10px;
+  width: 10px;
+  background-color: #fff;
+  opacity: 30%;
+  border-radius: 50%;
+}
+
+/* Header ends here */
+
+/* Section starts here */
+
+.first-image-box,
+.second-image-box,
+.third-image-box,
+.fourth-image-box {
+  position: relative;
+}
+
+.first-image {
+  width: 463px;
+  height: 420px;
+  position: absolute;
+  left: 240px;
+  top: -120px;
+}
+
+.first-image-description {
+  font-family: HelveticaNeue-Regular;
+  background-color: white;
+  padding: 30px 63px;
+  font-size: 18px;
+  position: absolute;
+  left: 250px;
+  bottom: -290px;
+}
+
+.second-image {
+  width: 463px;
+  height: 420px;
+  position: absolute;
+  left: 730px;
+  top: -170px;
+}
+
+.second-image-description {
+  font-family: hellvetica-neue-bold;
+  font-weight: bold;
+  backdrop-filter: blur(10px);
+  padding: 30px 63px;
+  font-size: 18px;
+  position: absolute;
+  left: 741px;
+  top: 115px;
+}
+
+.third-image {
+  width: 463px;
+  height: 420px;
+  position: absolute;
+  left: 1220px;
+  top: -120px;
+}
+
+.third-image-description {
+  font-family: HelveticaNeue-Regular;
+  background-color: white;
+  padding: 30px 63px;
+  font-size: 18px;
+  position: absolute;
+  left: 1230px;
+  top: 168px;
+}
+
+.fourth-image {
+  width: 463px;
+  height: 420px;
+  position: absolute;
+  left: 1220px;
+}
+
+.other-projects {
+  position: absolute;
+  top: 350px;
+  left: 1520px;
+  font-size: 18px;
+  font-weight: bold;
+  border-left: 1px solid black;
+  padding-left: 21px;
+}
+
+/* Section ends here */
