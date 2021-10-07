@@ -25,6 +25,7 @@
         border-left: 10px;
         border-color: black;
         font-weight: bold;
+        font-family:Helvetica-neue-bold;
     }
     .partniorebi{
         width: 226px;
@@ -32,6 +33,7 @@
         font-size: 32px;
         color:#171717;
         font-weight: bold;
+        font-family:  Helvetica-neue-bold;
     }
     #punkt{
         width: 70px;
@@ -71,6 +73,7 @@
         height: 99px;
         font-size: 16px;
         margin-right: 269px;
+        font-family:HelveticaNeue-Regular;
     }
     .line1{
         display: flex;
