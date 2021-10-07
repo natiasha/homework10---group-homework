@@ -52,7 +52,7 @@
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background-color: rgb(125, 125, 133);
+        background-color: rgb(171, 171, 171);
         margin-right: 20px;
     }
     .punkt3{
@@ -73,7 +73,6 @@
         height: 99px;
         font-size: 16px;
         margin-right: 269px;
-        font-family:HelveticaNeue-Regular;
     }
     .line1{
         display: flex;
@@ -83,8 +82,7 @@
     img{
         width: 219px;
         height: 82px;
-        filter: grayscale;
-    }
+   }
     .logo{
         display: grid;
         grid-template-columns: 1fr 1fr  1fr;
